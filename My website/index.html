@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>visionIQ</title>
+    <style>
+        
+
+        body {
+            background-color: rgb(39, 39, 55);
+            color: white
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 30px;
+            background-color: rgb(5, 5, 113);
+
+        }
+
+        nav ul {
+            display: inline-flex;
+            justify-items: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.2rem;
+        }
+
+        .left {
+            font-size: 1.2rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+        }
+
+        .firstsection>div {
+            width: 30%;
+
+
+
+        }
+
+
+        .leftsection {
+
+            margin: 30px 0;
+            font-size: 2rem;
+        }
+
+
+        .rightsection img {
+            width: 100%;
+            margin: 60 0;
+        }
+
+        .purple {
+            color: rgb(121, 8, 227);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Sonu Portfio</div>
+            <ul></ul>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Service</a></li>
+                    <li><a href="/">Project</a></li>
+                    <li><a href="/">Contect</a></li>
+
+                </ul>
+
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hii , My name is <span class="purple">Sonu</span>
+                <div> kumar napit and i am web & app developer</div>
+
+                <span id="element"></span>
+
+            </div>
+
+            <div class="rightsection">
+                <img src="logo round.png" alt="developer png.png">
+            </div>
+
+
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['web developer.', '&amp; app developer.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</body>
+
+</html>
